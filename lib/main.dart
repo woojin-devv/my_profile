@@ -15,7 +15,13 @@ class MyProfile extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          title: const Text('저를 소개합니다.'),
+          title: const Text(
+            '저를 소개합니다.',
+            style: TextStyle(
+              fontFamily: 'Pretendard',
+              fontWeight: FontWeight.w400,
+            ),
+          ),
           backgroundColor: Colors.white,
         ),
         body: Column(
