@@ -40,8 +40,10 @@ class ProfileCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      //TODO: 여기에 프로필 카드 구현
+    return Stack(
+      children: <Widget>[
+        //TODO: 여기에 Profile Card 구현
+      ],
     );
   }
 }
@@ -62,5 +64,14 @@ class DescriptionCard extends StatelessWidget {
     return Container(
       //TODO: 여기에 Description Card 구현
     );
+  }
+}
+
+class ProfileTile extends StatelessWidget {
+  const ProfileTile({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(children: <Widget>[]);
   }
 }
